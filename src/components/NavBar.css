@@ -1,0 +1,14 @@
+.nav{
+    background-color: #52baee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 22px;
+}
+
+.nav > svg{
+    width: 100px;
+    fill: white;
+}
