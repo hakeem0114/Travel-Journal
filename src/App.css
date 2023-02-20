@@ -1,3 +1,6 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -5,6 +8,14 @@
 }
 
 body{
-    display: grid;
-    grid-template-rows: 10% 90%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App{
+  width: 650px;
+ 
+  background: #FFFFFF;
 }
