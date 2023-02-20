@@ -10,10 +10,12 @@ import { Content } from "./components/Content";
 import './App.css'
 
 function App() {
+
   const cards = data.map(item =>{
     return(
         <Content
-              item = {item}
+              item = {item}  /* Could use spread operator [...items] */
+               
         />
     )
   })
@@ -21,9 +23,10 @@ function App() {
 
   return(
           <div className='App'>
+            
                <NavBar/>
                <section className='card-list'>
-                    {cards}
+                    {cards}  
                </section>
           </div>
         

@@ -1,3 +1,23 @@
 .content{
-    background-color: aquamarine;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spanCard > svg{
+    width: 10px;
+    fill: red;
+}
+
+.spanCard{
+    display: flex;
+}
+
+.content > img{
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+
+    margin: 2rem;
+    padding: .25rem;
 }
