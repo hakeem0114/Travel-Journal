@@ -13,10 +13,13 @@ function App() {
 
   const cards = data.map(item =>{
     return(
-        <Content
-              item = {item}  /* Could use spread operator [...items] */
-               
-        />
+        <div>
+            <Content
+                  item = {item}  /* Could use spread operator [...items] */
+            />
+        </div>
+
+        
     )
   })
 
